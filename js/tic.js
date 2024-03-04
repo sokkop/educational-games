@@ -76,7 +76,7 @@ function tap(event) {
 }
 
 function startGame() {
-    header.innerText = 'Крестики-нолики';
+    header.innerText = 'Крестики-нолии';
     counter = 0;
     for (var cell of cells) {
         cell.innerHTML = '';
